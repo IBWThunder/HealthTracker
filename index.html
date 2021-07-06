@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HealthTracker</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="content">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#Log In">Log In</a>
+                    <a href="#Sign Up">Sign Up</a>
+                </div>
+                <span id="loginorsignup" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Log in or Sign up</span>
+                <script>
+                    function openNav() {
+                      document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                      document.getElementById("mySidenav").style.width = "0";
+                    }
+                    </script>
+                <div class="title">
+                    <h1>HealthTracker</h1>
+                    <p id="main_p">It is important to have a healthy body. We can help you track your health by logging in your health stats.</p>
+                </div>
+                <div class="options_container">
+                    <div class="option1">
+                        <button class="btn1"><span>Enter your data</span></button>
+                    </div>
+                    <div class="option2">
+                        <button class="btn1"><span>Enter a workout</span></button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+idea:
+name: health tracker, health monitor, eye on health, well being.
+A Health Tracking Site!
+a website where you enter basic health stats like
+body temprature, heart rate and your weight (once a week).
+enter your workout stats such as:
+calories burnt, steps, distance crossed, etc...
+set up your calorie intake for the day and count your calories based on that goal.
+in the end the goal of this website is to make it easier for you to keep an eye on your
+health by making a user friendly UI.
+------------
+planning:
+---
+design the login and register buttons. (not satisfied but complete)
+
+design a registration page and a login . 
+
+build the backend for that (somehow).
+
+desgin the "enter your stats" page.
+
+design the "enter a workout" page.
+
+might adding the option of inegrating myfitnesspal API with the site.
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  
+
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
