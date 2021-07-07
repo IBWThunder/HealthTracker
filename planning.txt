@@ -10,5 +10,5 @@ desgin the "enter your stats" page.
 
 design the "enter a workout" page.
 
-might adding the option of inegrating myfitnesspal API with the site.
+might adding the option of inegrating myfitnesspal with the site.
 ---
