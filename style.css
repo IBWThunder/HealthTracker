@@ -1,6 +1,7 @@
 .body {
     margin: auto;
     max-width: 2580px;
+    background-color: cornsilk;
     
 }
 
@@ -8,7 +9,6 @@
 
 .main_container {
     padding: 100px;
-    background-color: cornsilk;
 
 }
 
