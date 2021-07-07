@@ -2,7 +2,7 @@ planning:
 ---
 design the login and register buttons. (not satisfied but complete)
 
-design a registration page and a login . 
+design a registration page and a login . (working on it)
 
 build the backend for that (somehow).
 
