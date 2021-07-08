@@ -13,17 +13,31 @@
         
     </head>
     <body class="body">
+        <script src="Script.js"></script>
         <h1 id="header1">Login in or create an account!</h1>
-        <form class="login_form">
-            <fieldset id="FS">
-                <legend>Sign In/Up</legend>
-                <label for="Uname">Username:</label><br>
-                <input type="text" id="Uname" name="Uname"><br>
-                <label for="Email">Email:</label><br>
-                <input type="text" id="Email" name="Email"><br>
-                <label for="Pword">Password:</label><br>
-                <input type="text" id="Pword" name="Pword"><br><br>
-                <input type="button" value="Enter">
-            </fieldset>
-        </form>    
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="form">
+            <form class="form-content animate" action="#" method="POST">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="close Form">&times;</span>
+                    <img src="images/login.png" alt="Avatar" class="avatar">
+                    </div>
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input type="Password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+                    <div class="container" style="background-color:antiquewhite">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">Password?</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
+</html>    
