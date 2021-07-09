@@ -10,5 +10,5 @@ desgin the "enter your stats" page.
 
 design the "enter a workout" page.
 
-might adding the option of inegrating myfitnesspal with the site.
+idea : inegrating "myfitnesspal" with this site, meaning the user profile is connected to their myfitnesspal profile. (idk how to do this though...)
 ---
