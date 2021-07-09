@@ -1,15 +1,14 @@
 .body {
     margin: auto;
     max-width: 2580px;
-    background-color: cornsilk;
     
 }
 
 
 
-.main_container {
+.first_part {
     padding: 100px;
-
+    background-color: cornsilk;
 }
 
 .content {
@@ -178,4 +177,16 @@
 
 #loginorsignup {
     font-family: 'Open Sans', sans-serif;
+}
+
+.sec_part {
+    background-color: #4169E1;
+    padding: 70px;
+}
+
+.third_part {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E6E6FA;
+    text-align: center;
 }
