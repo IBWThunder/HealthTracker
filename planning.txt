@@ -1,12 +1,12 @@
 planning:
 ---
-design the login and register buttons. (not satisfied but complete)
+design the login and register buttons. (not satisfied but complete + might get deleted later)
 
-design a registration page and a login . (working on it)
+design a registration page and a login . (Postponed)
 
-build the backend for that (somehow).
+build the backend for that (somehow). (Postponed)
 
-desgin the "enter your stats" page.
+desgin the "enter your stats" page. (working on that)
 
 design the "enter a workout" page.
 
